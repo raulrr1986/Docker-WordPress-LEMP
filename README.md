@@ -36,3 +36,15 @@ echo "127.0.0.1 localhost.example" | sudo tee -a /etc/hosts
 Ready to go:
 
 docker-compose up -d --build
+
+(Experimental) Installation with trusted self-signed certificates
+Clone repository:
+
+git clone https://github.com/aurkenb/docker-wordpress-lemp && cd docker-wordpress-lemp
+cp .env.example .env
+init.sh automatically setups environment:
+
+sh init.sh
+Ready to go:
+
+docker-compose up -d --build
