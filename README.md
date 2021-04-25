@@ -40,7 +40,7 @@ docker-compose up -d --build
 # (Experimental) Installation with trusted self-signed certificates
 Clone repository:
 
-git clone https://github.com/aurkenb/docker-wordpress-lemp && cd docker-wordpress-lemp
+git clone https://github.com/raulrr1986/Forked_WordPress-LEMP.git && cd docker-wordpress-lemp
 cp .env.example .env
 init.sh automatically setups environment:
 
