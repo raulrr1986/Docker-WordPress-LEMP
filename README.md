@@ -1,3 +1,10 @@
+# Requirements
+Docker WordPress LEMP requires Docker version 1.12+ and Docker Compose.
+
+# Installation
+Download or Clone Docker WordPress LEMP. Once in the repository, run `docker-compose up` and you're up and running.
+
+# Let's Start
 WordPress on PHP7.4 + MySQL 8.0 with Docker Compose
 Install WordPress on the latest LEMP stack using Docker Compose.
 
@@ -28,9 +35,3 @@ echo "127.0.0.1 localhost.example" | sudo tee -a /etc/hosts
 Ready to go:
 
 docker-compose up -d --build
-
-# Requirements
-Docker WordPress LEMP requires Docker version 1.12+ and Docker Compose.
-
-# Installation
-Download or Clone Docker WordPress LEMP. Once in the repository, run `docker-compose up` and you're up and running.
