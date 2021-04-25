@@ -37,7 +37,7 @@ Ready to go:
 
 docker-compose up -d --build
 
-(Experimental) Installation with trusted self-signed certificates
+# (Experimental) Installation with trusted self-signed certificates
 Clone repository:
 
 git clone https://github.com/aurkenb/docker-wordpress-lemp && cd docker-wordpress-lemp
