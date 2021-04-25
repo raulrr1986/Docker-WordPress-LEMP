@@ -18,7 +18,7 @@ Latest Nginx version stable
 Installation (manual)
 Clone repository:
 
-git clone https://github.com/raulrr1986/Forked_WordPress-LEMP.git && cd docker-wordpress-lemp
+git clone https://github.com/raulrr1986/Forked_WordPress-LEMP.git && cd Forked_WordPress-LEMP
 cp .env.example .env
 Copy environment file and default nginx setup:
 
@@ -40,7 +40,7 @@ docker-compose up -d --build
 # (Experimental) Installation with trusted self-signed certificates
 Clone repository:
 
-git clone https://github.com/raulrr1986/Forked_WordPress-LEMP.git && cd docker-wordpress-lemp
+git clone https://github.com/raulrr1986/Forked_WordPress-LEMP.git && cd Forked_WordPress-LEMP
 cp .env.example .env
 init.sh automatically setups environment:
 
